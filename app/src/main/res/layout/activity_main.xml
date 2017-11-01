@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chirag.myapplication.MainActivity"
+    android:background="#3F607F">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:foreground="@drawable/ring"
+        android:background="?selectableItemBackgroundBorderless"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Please place bag on whatever"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:id="@+id/circ"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight: 100 Kgs"
+        android:textSize="20dp"
+        android:layout_below="@+id/circ"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"/>
+
+
+
+</RelativeLayout>
